@@ -48,9 +48,11 @@ True Negative Rate (also known as specificity): 1 - False Positive Rate
 
 ### Results
 The correlation between input features and Classes is shown is the following plot.
-<img src="https://github.com/giovannicatalani/FraudDetection/blob/main/images/Correlation.png" width="600" />
+
+<img src="https://github.com/giovannicatalani/FraudDetection/blob/main/images/Correlation.png" width="400" />
 
 The results of the metrics on the 3 methods without and with SMOLE are summarized below. Balancing the classes seen during training increases the performance of all models.
-<img src="https://github.com/giovannicatalani/FraudDetection/blob/main/images/Results.png" width="600" />
+
+<img src="https://github.com/giovannicatalani/FraudDetection/blob/main/images/Results.png" width="800" />
 
 
