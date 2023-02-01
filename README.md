@@ -2,7 +2,7 @@
 [![Python](https://img.shields.io/badge/python-3.8-informational)](https://docs.python.org/3/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-This repository contains the implementation of several traditional Machine Learning algorithms on the Kaggle Transaction Fraud.
+This repository contains a simple implementation of several traditional Machine Learning algorithms on the Kaggle Transaction Fraud.
 The description of the dataset can be found below and the dataset can be downloaded from [**"Credit Card Fraud Dataset"**](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?resource=download). 
 
 <!-- TABLE OF CONTENTS -->
