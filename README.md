@@ -42,6 +42,7 @@ The model uses the **ImbLearn** library.
 
 
 ### Metrics
+Measuring the classification accuracy on an unbalanced test set would give results that do not reflect the true detection capabilities of the model since most of the samples are Regular transaction and are predicted correctly. It is important to quantify the number of Predicted Frauds (True Positive) and the number of erroneously predicted frauds (False Positive) to compare the performance of the methods.
 The Metrics used are True Positive Rate (also known as recall): number of correctly predicted Frauds (TP) divided by total Frauds in the test set (TP + FN).
 False Positive Rate (also known as fall-out): number of falsely predicted Frauds (FP) divided by total Regular transaction in the test set (FP + TN)
 True Negative Rate (also known as specificity): 1 - False Positive Rate
@@ -51,7 +52,7 @@ The correlation between input features and Classes is shown is the following plo
 
 <img src="https://github.com/giovannicatalani/FraudDetection/blob/main/images/Correlation.png" width="400" />
 
-The results of the metrics on the 3 methods without and with SMOLE are summarized below. Balancing the classes seen during training increases the performance of all models.
+The results of the metrics on the 3 methods without and with SMOLE are summarized below. Balancing the classes seen during training increases the performance of all models on the recall metric (Frauds are better detected).
 
 <img src="https://github.com/giovannicatalani/FraudDetection/blob/main/images/Results.png" width="800" />
 
