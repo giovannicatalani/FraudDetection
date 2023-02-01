@@ -11,8 +11,8 @@ The description of the dataset can be found below and the dataset can be downloa
 * [Dataset](#dataset)
 * [Model](#model)
 * [Configuration](#configuration)
-* [Usage](#usage)
-* [Results](#usage)
+* [Metrics](#metrics)
+* [Results](#results)
 
 
 
@@ -28,7 +28,7 @@ Given the class imbalance ratio, we recommend measuring the accuracy using the A
 
 ### Model
 
-The Machine Learning models used are Random Forest Regression, Logistic Regression, and Decision Tree Rgression
+The Machine Learning models used are Random Forest Regression, Logistic Regression, and Decision Tree Regression
 
 
 
@@ -41,8 +41,16 @@ git clone git@github.com:giovannicatalani/FraudDetection.git
 The model uses the **ImbLearn** library.
 
 
-### Usage
+### Metrics
+The Metrics used are True Positive Rate (also known as recall): number of correctly predicted Frauds (TP) divided by total Frauds in the test set (TP + FN).
+False Positive Rate (also known as fall-out): number of falsely predicted Frauds (FP) divided by total Regular transaction in the test set (FP + TN)
+True Negative Rate (also known as specificity): 1 - False Positive Rate
 
 ### Results
+The correlation between input features and Classes is shown is the following plot.
+<img src="https://github.com/giovannicatalani/CAE_ROM/blob/main/Images/Correlation.png" width="600" />
+
+The results of the metrics on the 3 methods without and with SMOLE are summarized below. Balancing the classes seen during training increases the performance of all models.
+<img src="https://github.com/giovannicatalani/CAE_ROM/blob/main/Images/Results.png" width="600" />
 
 
